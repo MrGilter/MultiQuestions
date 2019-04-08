@@ -13,7 +13,7 @@ namespace MultiQuestions
     }
     public class Question
     {
-        [System.Xml.Serialization.XmlText()]
+        public int Id { get; set; }
         public string NameQuestions { get; set; }
         public string Text { get; set; }
         public TypeQuestion typeQuestion { get; set; }
@@ -23,11 +23,13 @@ namespace MultiQuestions
     }
     public class Answer
     {
+        public int Id { get; set; }
         public string Text { get; set; }
         public bool Trueness { get; set; }
     }
     public class Group
     {
+        public int Id { get; set; }
         public string NameGroup { get; set; }
         public List<Question> QuestList { get; set; }
     }

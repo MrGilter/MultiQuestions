@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<Group xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NameGroup>dotNET ( CSharp ).xml</NameGroup>
+  <QuestList>
+    <Question>
+      <NameQuestions>test zapolnenija 22222</NameQuestions>
+      <Text>da hui ego znaet</Text>
+      <typeQuestion>CheckBox</typeQuestion>
+      <Answers>
+        <Answer>
+          <Text>1</Text>
+          <Trueness>false</Trueness>
+        </Answer>
+        <Answer>
+          <Text>2</Text>
+          <Trueness>true</Trueness>
+        </Answer>
+      </Answers>
+      <Comment>lalalalal topolja</Comment>
+    </Question>
+  </QuestList>
+</Group>

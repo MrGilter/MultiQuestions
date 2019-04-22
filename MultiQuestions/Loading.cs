@@ -34,7 +34,7 @@ namespace MultiQuestions
                 using (FileStream fs = new FileStream(string.Format("./Questions/{0}", file.Name), FileMode.OpenOrCreate))
                 {
                     Group newGroup = new Group();
-                    newGroup = (Group)serializer.Deserialize(fs); // траблы
+                    newGroup = (Group)serializer.Deserialize(fs); // траблы, переделать на NoSQL, или Entity
                     Groups.Add(newGroup);
                     fs.Close();
                 }

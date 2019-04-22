@@ -9,6 +9,8 @@ namespace MultiQuestions
 {
     class QuestionContext : DbContext
     {
-        public QuestionContext():base
-    }
+        public QuestionContext() : base("dotNet_(CSharp)")
+        {
+
+        }
 }
